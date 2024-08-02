@@ -1,12 +1,11 @@
     <mat-toolbar>
-    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with menu icon">
+    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu">
       <mat-icon>menu</mat-icon>
     </button>
-    <span [routerLink]="['/']">My App</span>
+    <img [routerLink]="['/']" src="https://www.barcinquanta.it/wp-content/uploads/2023/03/cinquantalogonew.svg" alt="logo">
   
-    <mat-menu #menu="matMenu">
+    <mat-menu #menu="matMenu" class="customize">
       <button mat-menu-item [routerLink]="['/menu']" class="buttonV">
-        <mat-icon>fastfood</mat-icon>
         <span>Menù</span>
       </button>
     </mat-menu>

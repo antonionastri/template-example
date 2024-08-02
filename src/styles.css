@@ -1,4 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+  font-family: "SangBleu";
+  src: url("../src/media/font/SangBleuSans-Regular.woff") format("woff"),
+  url("/src/media/font/SangBleuSans-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "SangBleu";
+  background-color: black;
+}
+
+#mat-menu-panel-0 {
+  background:rgba(0, 0, 0, 0.705); /* Sfondo */
+  max-width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cdk-overlay-0{
+  width: 100vw !important; /* Larghezza 100% della viewport */
+  height: 100vh; /* Altezza 100% della viewport */
+  margin: 0 auto; /* Rimuove eventuali margini */
+  padding: 0; /* Rimuove eventuali padding */
+  left: 0 !important; /* Assicura che il menu parta da sinistra */
+  top: 0 !important; /* Assicura che il menu parta dall'alto */
+}
+
+.mat-mdc-menu-content{
+  max-width: fit-content;
+}
