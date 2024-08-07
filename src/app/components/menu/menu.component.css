@@ -1,9 +1,13 @@
-h3{
+h3 {
   text-align: center;
   color: #f0642c;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
-a{
+a {
   color: white;
   font-size: 12px;
   text-decoration: underline;
@@ -12,9 +16,38 @@ a{
   width: fit-content;
 }
 
-.menu-cat{
+.menu-cat {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  font-weight: 600;
+}
+
+.menu-content {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.menu-content ul li {
+  margin: 15px 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-cat a.active {
+  color: #f0642c;
+}
+
+.menu-content span {
+  text-align: right;
+  display: block;
 }

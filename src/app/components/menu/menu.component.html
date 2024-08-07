@@ -1,9 +1,69 @@
 <h3>MENU</h3>
 <div class="menu-cat">
-  <a href="javascript:void(0)">CAFFETTERIA</a>
-  <a href="javascript:void(0)">PAUSA PRANZO</a>
-  <a href="javascript:void(0)">DRINK LIST</a>
-  <a href="javascript:void(0)">DISTILLATI</a>
-  <a href="javascript:void(0)">VINI</a>
-  <a href="javascript:void(0)">BIRRE</a>
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('caffe')"
+    [ngClass]="{ active: activeCategory === 'caffe' }"
+    >CAFFETTERIA</a
+  >
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('pausa')"
+    [ngClass]="{ active: activeCategory === 'pausa' }"
+    >PAUSA PRANZO</a
+  >
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('drink')"
+    [ngClass]="{ active: activeCategory === 'drink' }"
+    >DRINK LIST</a
+  >
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('distillati')"
+    [ngClass]="{ active: activeCategory === 'distillati' }"
+    >DISTILLATI</a
+  >
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('vini')"
+    [ngClass]="{ active: activeCategory === 'vini' }"
+    >VINI</a
+  >
+  <a
+    href="javascript:void(0)"
+    (click)="showCategory('birre')"
+    [ngClass]="{ active: activeCategory === 'birre' }"
+    >BIRRE</a
+  >
+</div>
+
+<div *ngIf="activeCategory === 'caffe'" class="menu-content">
+  <ul>
+    <li>Espresso (70% arabica, 30% robusta) <span>1,5</span></li>
+    <li>Espresso BIO (80% arabica, 20% robusta) <span>1,8</span></li>
+    <li>Con panna <span>2,5</span></li>
+    <li>Corretto<span>2.5</span></li>
+    <li>Decaffeinato<span>1,5</span></li>
+    <li>Cappuccino<span>2,5</span></li>
+    <li>Cappuccino miscela BIO<span>2,8</span></li>
+    <li>Orzo<span>2,5</span></li>
+    <li>Ginseng<span>2,5</span></li>
+    <li>Crema caffè<span>2,5</span></li>
+    <li>Cioccolata calda<span>4</span></li>
+    <li>Cioccolata calda corretta<span>4,5</span></li>
+  </ul>
+</div>
+<div *ngIf="activeCategory === 'pausa'" class="menu-content">
+  Contenuto Pausa Pranzo
+</div>
+<div *ngIf="activeCategory === 'drink'" class="menu-content">
+  Contenuto Drink List
+</div>
+<div *ngIf="activeCategory === 'distillati'" class="menu-content">
+  Contenuto Distillati
+</div>
+<div *ngIf="activeCategory === 'vini'" class="menu-content">Contenuto Vini</div>
+<div *ngIf="activeCategory === 'birre'" class="menu-content">
+  Contenuto Birre
 </div>

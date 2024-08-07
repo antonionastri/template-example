@@ -8,3 +8,8 @@ img {
     margin: 25px auto; 
     width: calc(100vw - 50px);
 }
+
+p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
