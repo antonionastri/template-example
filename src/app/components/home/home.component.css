@@ -2,3 +2,9 @@
     color:white;
     padding: 20px;
 }
+
+img {
+    display: block;
+    margin: 25px auto; 
+    width: calc(100vw - 50px);
+}

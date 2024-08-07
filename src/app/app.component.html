@@ -1,14 +1,30 @@
-    <mat-toolbar>
-    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu">
-      <mat-icon>menu</mat-icon>
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img [routerLink]="['/']" src="https://i.imgur.com/pd7IfFZ.png" alt="logo" />
+
+  <mat-menu #menu="matMenu" class="customize">
+    <button mat-menu-item [routerLink]="['/menu']" class="buttonV">
+      <span>Menù</span>
     </button>
-    <img [routerLink]="['/']" src="https://www.barcinquanta.it/wp-content/uploads/2023/03/cinquantalogonew.svg" alt="logo">
-  
-    <mat-menu #menu="matMenu" class="customize">
-      <button mat-menu-item [routerLink]="['/menu']" class="buttonV">
-        <span>Menù</span>
-      </button>
-    </mat-menu>
-  </mat-toolbar>
+  </mat-menu>
+</mat-toolbar>
 
 <router-outlet></router-outlet>
+
+<footer>
+  <div class="footer-unix">
+    <h4 class="footer-title">Prenditela</h4>
+    <h4 class="footer-title">Comoda</h4>
+  </div>
+  <p>
+    Largo Tringiale, 27 - San Valentino Torio (SA) • Italia
+  </p>
+  <a href="mailto:nastritoni98@gmail.com">antonio.nastri.98&#64;gmail.com</a>
+  <div class="social">
+  <i class="fa-brands fa-facebook-f" style="color: #f0642c;"></i>
+  <i class="fa-brands fa-instagram" style="color: #f0642c;"></i>
+  <i class="fa-brands fa-pinterest-p" style="color: #f0642c;"></i>
+  </div>
+</footer>

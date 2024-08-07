@@ -1,11 +1,20 @@
+h3{
+  text-align: center;
+  color: #f0642c;
+}
 
-.example-card {
-    max-width: 400px;
-    margin-top: 20px;
-  }
-  
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
+a{
+  color: white;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  display: block;
+  width: fit-content;
+}
 
+.menu-cat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
