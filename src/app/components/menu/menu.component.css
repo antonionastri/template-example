@@ -51,3 +51,21 @@ a {
   text-align: right;
   display: block;
 }
+
+hr{
+  border: 1px solid #f0642c;
+  margin: 30px 0;
+}
+
+.menu-content h3{
+  margin: 15px 0;
+}
+
+.details-drink{
+  font-size: 11px;
+  margin: 0 3px !important;
+}
+
+.drink li{
+  margin-bottom: 0 !important;
+}

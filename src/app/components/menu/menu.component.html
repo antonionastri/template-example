@@ -55,15 +55,397 @@
   </ul>
 </div>
 <div *ngIf="activeCategory === 'pausa'" class="menu-content">
-  Contenuto Pausa Pranzo
+<h3>PER INIZIARE</h3>
+<ul>
+  <li>Polpette di melanzane <span>5</span></li>
+  <li>Crocchette di Jamon Iberico <span>6</span></li>
+  <li>Straccetti di pollo con salsa BBQ <span>5</span></li>
+</ul>
+<hr>
+<H3>PRIMI PIATTI</H3>
+<ul>
+  <li>Tonnarelli alla carbonara <span>8</span></li>
+  <li>Fusilli con crema di peperoni, fonduta di provola e granella di nocciole tostate <span>8</span></li>
+  <li>Gnocchetti alla Nerano <span>7</span></li>
+  <li>Farro all'insalata con verdure <span>6</span>
+  </li>
+  <li>Scarpariello polpo e pomodorini <span>10</span></li>
+</ul>
+<hr>
+<h3>SECONDI PIATTI</h3>
+<ul>
+  <li>Vitello tonnato <span>8</span></li>
+  <li>Insalata di Cesare<br> Lattuga romana, scaglie di grana, pollo grigliato, salsa Caesar, crostoni di pane<span>8</span>
+  </li>
+  <li>Salmone con insalata di finocchi e arance <span>10</span></li>
+  <li>Uovo croccante su gorgonzola e cipolle croccanti <span>7</span></li>
+  <li>Caponata con fresella, olive, pomodori e tonno in conserva <span>7</span>
+  </li>
+</ul>
+<hr>
+<h3>CONTORNI</h3>
+<ul>
+  <li>Peperoni saltati con olive <span>4</span></li>
+  <li>Melanzane a funghetto <span>4</span></li>
+  <li>Patate al forno <span>4</span></li>
+  <li>Zucchine alla scapece <span>4</span>
+  <li>Funghi Saltati<span>4</span></li>
+</ul>
+<hr>
+<h3>DOLCI</h3>
+<ul>
+  <li>Cannoli di sfogliatella <span>5</span></li>
+  <li>Crema di ricotta e polvere di liquirizia “Amarelli”</li>
+  <li>Coppa al croccante <span>6</span></li>
+  <li>Crumble salato al cacao, mousse al cioccolato fondente, gel di lampone e lampone ghiacciato</li>
+  <li>Tiramisù <span>5</span></li>
+  <li>Pizza di gallette <span>5</span></li>
+  <li>Gallette al limoncello Nazionale</li>
+</ul>
+<hr>
+
 </div>
-<div *ngIf="activeCategory === 'drink'" class="menu-content">
-  Contenuto Drink List
+<div *ngIf="activeCategory === 'drink'" class="menu-content drink">
+  <H3>COCKTAIL</H3>
+  <ul>
+    <li>Mojito <span>8</span></li>
+    <li class="details-drink">Rum, lime, zucchero, menta fresca, soda</li>
+    
+    <li>Negroni <span>9</span></li>
+    <li class="details-drink">Gin, Campari, vermouth rosso</li>
+    
+    <li>Martini Dry <span>10</span></li>
+    <li class="details-drink">Gin, vermouth dry, oliva</li>
+    
+    <li>Old Fashioned <span>9</span></li>
+    <li class="details-drink">Bourbon o rye whiskey, zucchero, angostura, twist d'arancia</li>
+    
+    <li>Margarita <span>8</span></li>
+    <li class="details-drink">Tequila, triple sec, succo di lime</li>
+    
+    <li>Daiquiri <span>8</span></li>
+    <li class="details-drink">Rum, succo di lime, zucchero</li>
+    
+    <li>Cosmopolitan <span>9</span></li>
+    <li class="details-drink">Vodka, triple sec, succo di lime, succo di mirtillo</li>
+    
+    <li>Pina Colada <span>9</span></li>
+    <li class="details-drink">Rum, crema di cocco, succo d'ananas</li>
+    
+    <li>Moscow Mule <span>8</span></li>
+    <li class="details-drink">Vodka, ginger beer, succo di lime</li>
+    
+    <li>Aperol Spritz <span>7</span></li>
+    <li class="details-drink">Aperol, prosecco, soda</li>
+</ul>
+<hr>
+<h3>COCKTAIL ANALCOLICI</h3>
+<ul>
+  <li>Virgin Mojito <span>6</span></li>
+  <li class="details-drink">Lime, zucchero, menta fresca, soda</li>
+  
+  <li>Shirley Temple <span>6</span></li>
+  <li class="details-drink">Ginger ale, granatina, ciliegia al maraschino</li>
+  
+  <li>Nojito <span>6</span></li>
+  <li class="details-drink">Menta fresca, lime, zucchero, ginger ale</li>
+  
+  <li>Cinderella <span>7</span></li>
+  <li class="details-drink">Succo d'arancia, succo d'ananas, succo di limone, soda</li>
+  
+  <li>Virgin Pina Colada <span>7</span></li>
+  <li class="details-drink">Crema di cocco, succo d'ananas, panna</li>
+  
+  <li>Sunrise <span>6</span></li>
+  <li class="details-drink">Succo d'arancia, succo di ananas, sciroppo di granatina</li>
+</ul>
+<hr>
+
 </div>
 <div *ngIf="activeCategory === 'distillati'" class="menu-content">
-  Contenuto Distillati
+  <h3>VODKA</h3>
+  <ul>
+    <li>42 Below <span>8</span></li>
+    <li>Altamura <span>9</span></li>
+    <li>Beluga <span>9</span></li>
+    <li>Belvedere <span>9</span></li>
+    <li>Belvedere Heritage <span>10</span></li>
+    <li>Ciroc <span>10</span></li>
+    <li>Grey Goose <span>9</span></li>
+    <li>Ketel One <span>9</span></li>
+    <li>Tito's <span>9</span></li>
+</ul>
+<hr>
+<h3>GIN</h3>
+<ul>
+  <li>Aqva di Gin Agrumata <span>10</span></li>
+  <li>Aqva di Gin Floreale <span>10</span></li>
+  <li>Aqva di Gin Speziata <span>10</span></li>
+  <li>Beefeater <span>8</span></li>
+  <li>Big Gino <span>9</span></li>
+  <li>Bombay London Dry <span>8</span></li>
+  <li>Bombay Sapphire <span>8</span></li>
+  <li>Bombay Premier CRU <span>9</span></li>
+  <li>Boompjes Genever Korenwijn <span>10</span></li>
+  <li>Botanist <span>9</span></li>
+  <li>Brockmans <span>12</span></li>
+  <li>Del Professore Madame <span>10</span></li>
+  <li>Del Professore Monsieur <span>10</span></li>
+  <li>Elephant <span>13</span></li>
+  <li>Etsu <span>11</span></li>
+  <li>Gin Arte <span>10</span></li>
+  <li>Gin Arte Pomegranate <span>10</span></li>
+  <li>Glendalough Wild Botanical Gin <span>9</span></li>
+  <li>Hayman's Old Tom <span>9</span></li>
+  <li>Hayman's Sloe <span>9</span></li>
+  <li>Hendrick's <span>10</span></li>
+  <li>Ki No Bi Kyoto <span>14</span></li>
+  <li>Ki No Bi Sei <span>15</span></li>
+  <li>London N°3 <span>11</span></li>
+  <li>Malfy <span>10</span></li>
+  <li>Malfy Arancia <span>10</span></li>
+  <li>Malfy Limone <span>10</span></li>
+  <li>Malfy Pompelmo <span>10</span></li>
+  <li>Mare <span>10</span></li>
+  <li>Mare Capri <span>13</span></li>
+  <li>Monkey 47 <span>13</span></li>
+  <li>Nordés <span>9</span></li>
+  <li>Oxley <span>11</span></li>
+  <li>PhD <span>10</span></li>
+  <li>Plymouth <span>10</span></li>
+  <li>Plymouth Navy Strength <span>11</span></li>
+  <li>Porter's <span>11</span></li>
+  <li>Porter's Old Tom <span>11</span></li>
+  <li>Posides Gin <span>10</span></li>
+  <li>Raw <span>10</span></li>
+  <li>Roby Marton Original <span>11</span></li>
+  <li>Sabatini <span>9</span></li>
+  <li>Seven Hills <span>10</span></li>
+  <li>Sipsmith <span>11</span></li>
+  <li>Sipsmith VJOP <span>11</span></li>
+  <li>Tanqueray <span>9</span></li>
+  <li>Tanqueray Flor de Sevilla <span>9</span></li>
+  <li>Tanqueray Ten <span>10</span></li>
+  <li>Villa Ascenti <span>10</span></li>
+</ul>
+<hr>
+<h3>RUM AGRICOLI</h3>
+<ul>
+  <li>Clairin Casimir <span>11</span></li>
+  <li>Clairin Communal <span>8</span></li>
+</ul>
+<hr>
+<h3>RUM TRADIZIONALI</h3>
+<ul>
+  <li>Abuelo Centuria <span>25</span></li>
+  <li>Abuelo XV Finish Collection: Sherry Oloroso 20ml | Cognac Napoleon 20ml | Porto Tawny 20ml <span>16</span></li>
+  <li>Appleton 12 <span>11</span></li>
+  <li>Appleton 15 <span>16</span></li>
+  <li>Appleton 21 <span>24</span></li>
+  <li>Appleton 1994 <span>100</span></li>
+  <li>Appleton 1999 <span>100</span></li>
+  <li>Bacardi Carta Blanca <span>8</span></li>
+  <li>Bacardi Reserva Ocho <span>9</span></li>
+  <li>Barcelò Organic <span>8</span></li>
+  <li>Barcelò Imperial <span>9</span></li>
+  <li>Barcelò Imperial Onyx <span>9</span></li>
+  <li>Barcelò Imperial Port Cask <span>11</span></li>
+  <li>Barcelò Imperial 40° Anniversario <span>22</span></li>
+  <li>Caroni 19 Berry Bros & Rudd <span>30</span></li>
+  <li>Caroni 21 <span>50</span></li>
+  <li>Caroni Navy Rum <span>40</span></li>
+  <li>Diplomatico Reserva Exclusiva <span>9</span></li>
+  <li>Diplomatico Single Vintage 2005 <span>25</span></li>
+  <li>Don Papa <span>9</span></li>
+  <li>Don Papa 10 <span>15</span></li>
+  <li>Doorly's XO <span>9</span></li>
+  <li>El Dorado 21 <span>20</span></li>
+  <li>Forsyths WP 2005 <span>20</span></li>
+  <li>Forsyths WPM 2006 <span>25</span></li>
+  <li>Foursquare Détente <span>16</span></li>
+  <li>Foursquare Sagacity <span>16</span></li>
+  <li>Gosling's Black Seal 151 Proof <span>10</span></li>
+  <li>Hampden LROK2010 <span>35</span></li>
+  <li>Hampden LROK White <span>12</span></li>
+  <li>La Hechicera <span>11</span></li>
+  <li>La Hechicera Serie Experimental N.1 <span>15</span></li>
+  <li>Matusalem Gran Reserva 15 <span>9</span></li>
+  <li>Myers’s Original Dark <span>8</span></li>
+  <li>Sailor Jerry Spiced Rum <span>8</span></li>
+  <li>Santa Teresa Rum 1976 <span>13</span></li>
+  <li>Velier Royal Navy Tiger Shark <span>30</span></li>
+  <li>Veritas <span>9</span></li>
+  <li>Zacapa 23 <span>10</span></li>
+  <li>Zacapa Royal <span>40</span></li>
+  <li>Zacapa XO <span>19</span></li>
+</ul>
+<hr>
+<H3>CACHACA</H3>
+<ul>
+  <li>Janeiro <span>8</span></li>
+</ul>
+<hr>
+<H3>TEQUILA</H3>
+<ul>
+  <li>123 Organic Blanco Uno <span>13</span></li>
+  <li>123 Organic Reposado Dos <span>17</span></li>
+  <li>123 Organic Anejo Tres <span>17</span></li>
+  <li>Arette Añejo <span>11</span></li>
+  <li>Casamigos Blanco <span>12</span></li>
+  <li>Casamigos Reposado <span>13</span></li>
+  <li>Casamigos Añejo <span>14</span></li>
+  <li>Cazadores Blanco <span>8</span></li>
+  <li>Cazadores Reposado <span>9</span></li>
+  <li>Clase Azul Plata <span>20</span></li>
+  <li>Clase Azul Reposado <span>40</span></li>
+  <li>Clase Azul Gold <span>65</span></li>
+  <li>Corralejo Blanco <span>9</span></li>
+  <li>Corralejo Reposado <span>10</span></li>
+  <li>Corraleio Anejo <span>11</span></li>
+  <li>Curado <span>10</span></li>
+  <li>Don Julio Blanco <span>10</span></li>
+  <li>Fortaleza Blanco <span>14</span></li>
+  <li>Fortaleza Reposado <span>16</span></li>
+  <li>Patrón Silver <span>13</span></li>
+  <li>Patrón Reposado <span>14</span></li>
+  <li>Patrón Añejo <span>14</span></li>
+  <li>Patrón XO Cafè <span>10</span></li>
+  <li>Volcan de Mi Tierra Blanco <span>9</span></li>
+  <li>Volcan de Mi Tierra Reposado <span>12</span></li>
+</ul>
+<hr>
+<H3>MEZCAL</H3>
+<ul>
+  <li>Bruxo2 Pechuga <span>13</span></li>
+  <li>Casamigos Mezcal <span>16</span></li>
+  <li>Del Maguey Chichicapa <span>17</span></li>
+  <li>Del Maguey San Luis Del Rio Azul <span>17</span></li>
+  <li>Del Maguey Santo Domingo Albarradas <span>17</span></li>
+  <li>Del Maguey Tobala <span>20</span></li>
+  <li>Del Maguey Vida <span>9</span></li>
+  <li>El Jolgorio Cuixe <span>25</span></li>
+  <li>llegal <span>11</span></li>
+  <li>Montelobos Tobalà <span>15</span></li>
+  <li>Montelobos Ensable <span>11</span></li>
+  <li>Nuestra Soledad Zoquitlan <span>15</span></li>
+  <li>Perro De San Juan Espadin <span>10</span></li>
+  <li>Perro De San Juan Cirial 4 <span>16</span></li>
+</ul>
+<hr>
+<H3>SCOTCH WHISKY</H3>
+<ul>
+  <li>Ardbeg 10 <span>10</span></li>
+  <li>Caol Ila 12 <span>12</span></li>
+  <li>Caol Ila 25 <span>35</span></li>
+  <li>Caol Ila Moch <span>16</span></li>
+  <li>Cardhu 12 <span>11</span></li>
+  <li>Clynelish 14 <span>16</span></li>
+  <li>Cragganmore Distiller's Edition <span>18</span></li>
+  <li>Dalmore 12 <span>13</span></li>
+  <li>Famous Grouse <span>9</span></li>
+  <li>Glenfiddich 18 <span>17</span></li>
+  <li>Glenkinchie 12 <span>12</span></li>
+  <li>Glenlivet Nadurra <span>17</span></li>
+  <li>Glenmorangie 10 <span>11</span></li>
+  <li>Johnnie Walker Black Label <span>9</span></li>
+  <li>Johnnie Walker Blue Label <span>20</span></li>
+  <li>Johnnie Walker Gold Label <span>13</span></li>
+  <li>Johnnie Walker Green Label <span>14</span></li>
+  <li>Lagavulin 8 <span>13</span></li>
+  <li>Lagavulin 16 <span>14</span></li>
+  <li>Lagavulin DE 2017 <span>20</span></li>
+  <li>Laphroaig 10 <span>11</span></li>
+  <li>Macallan 12 double cask <span>18</span></li>
+  <li>Naked Malt <span>9</span></li>
+  <li>Oban 14 <span>12</span></li>
+  <li>Springbank 10 <span>12</span></li>
+  <li>Talisker 10 <span>12</span></li>
+  <li>Talisker 57° North <span>20</span></li>
+  <li>Talisker Port Ruighe <span>20</span></li>
+  <li>Talisker Skye <span>9</span></li>
+</ul>
+
 </div>
-<div *ngIf="activeCategory === 'vini'" class="menu-content">Contenuto Vini</div>
+<div *ngIf="activeCategory === 'vini'" class="menu-content">
+  <h3>BOLLICINE</h3>
+  <ul>
+    <li>Champagne AOC Brut<br>Dom Perignon P2 2003 <span>700</span></li>
+    <li>Champagne AOC Brut<br>"Sir Winston Churchill" 2012 Pol Roger <span>500</span></li>
+    <li>Champagne AY Grand Cru Brut<br>P.R. 90-18 Henry Giraud <span>300</span></li>
+    <li>Champagne AOC Brut<br>Perrier Jouët Belle Epoque 2013 <span>250</span></li>
+    <li>Champagne AOC Extra Brut<br>Bruno Paillard Rosé <span>130</span></li>
+    <li>Champagne AOC Brut<br>Dosnon Récolte Noire <span>90</span></li>
+    <li>Champagne AOC Brut<br>Lallier R.020 15 <span>80</span></li>
+    <li>Champagne AOC Brut<br>Rose Lallier <span>90</span></li>
+    <li>Champagne AOC Brut<br>Blanc de Blancs Lallier <span>95</span></li>
+    <li>Franciacorta Millesimato DOCG<br>Ca' del Bosco Vintage Collection <span>85</span></li>
+    <li>Franciacorta Ca' del Bosco<br>Vintage Collection Dosage zero <span>85</span></li>
+    <li>Franciacorta Ca' del Bosco<br>Cuvèe Prestige <span>70</span></li>
+    <li>Trento DOC Ferrari Maximum<br>Demi-Sec <span>45</span></li>
+    <li>Trento DOC Ferrari Maximum<br>Rosé <span>40</span></li>
+    <li>Trento DOC Ferrari Maximum<br>Blanc De Blancs <span>35</span></li>
+    <li>Caprettone spumante metodo classico "Pietrafumante" Casa Setaro <span>35</span></li>
+    <li>Garden Spritz Moet&Chandon <span>35</span></li>
+</ul>
+<h3>ROSSI</h3>
+<ul>
+  <li>De Marsyas "B-QA" LIBAN<br>Vallée de la Bekaa <span>45</span></li>
+  <li>Sant Emilion Grand Cru AOC<br>"Les Roches" De Yon-Figeac <span>45</span></li>
+  <li>Pinot noir IGP Pays d'Oc<br>"Naturalys" Gerard Bertrand <span>35</span></li>
+  <li>Etna DOC "Petralava" Antichi Vinai <span>32</span></li>
+  <li>Verona IGT "Rosso Fresco" Masi <span>30</span></li>
+  <li>Brunello di Montalcino DOCG<br>"Pian delle Vigne" 2017 Antinori <span>80</span></li>
+  <li>Taurasi DOCG "Spalatrone" <span>30</span></li>
+  <li>Nero d'Avola Sicilia DOC<br>"Sciare di est" Antichi Vinai <span>25</span></li>
+  <li>Primitivo Manduria dolce naturale<br>DOCG "Chicca" Varvaglione <span>28</span></li>
+  <li>Primitivo di Manduria DOP<br>"Papale" Varvaglione <span>28</span></li>
+  <li>Aglianico Cilento DOP<br>"Notarius" Donna Clara <span>28</span></li>
+  <li>Barbera d'Alba DOC Pelissero <span>25</span></li>
+  <li>Amarone della Valpolicella<br>Classico DOCG Zenato <span>60</span></li>
+  <li>Barbaresco DOCG Pelissero <span>45</span></li>
+  <li>Colli Perugini Rosso DOP<br>"L'Andrea" Castello di Monte Vibiano 2015 <span>40</span></li>
+</ul>
+<h3>BIANCHI</h3>
+<ul>
+  <li>Grand vin de Syrie 2016<br>Domaine de Bargylus <span>50</span></li>
+  <li>Riesling Alsace Dopp & Irionn <span>35</span></li>
+  <li>Verona IGT "Bianco Fresco" Masi <span>32</span></li>
+  <li>Orange Gold Gerard Bertrand <span>35</span></li>
+  <li>Etna DOC "Petralava" Antichi Vinai <span>32</span></li>
+  <li>Pouilly-fumé "Boisfleury" 2019<br>Domaine A. Cailbourdin <span>42</span></li>
+  <li>Verdicchio di Matelica DOC<br>Tenuta Grimaldi <span>35</span></li>
+  <li>Cigalus Blanc Gerard Bertrand <span>55</span></li>
+  <li>Chablis AOC Domaine Gueguen <span>40</span></li>
+  <li>Gewurztraminer DOC<br>Alto Adige Lavis <span>28</span></li>
+  <li>Greco di Tufo DOCG<br>"Grelé" 2018 Russo <span>25</span></li>
+  <li>Fiano Cilento DOP<br>"Pante" Donna Clara <span>28</span></li>
+</ul>
+<h3>ROSATI</h3>
+<ul>
+  <li>Rosato Frizzante Ancestrale<br>"Michè" Michele Satta <span>35</span></li>
+  <li>Rosato Primitivo IGP Puglia<br>"Idea" Varvaglione <span>25</span></li>
+  <li>Fleurs de Prairie Cotes de Provence Rosé <span>30</span></li>
+</ul>
+<h3>DOLCI</h3>
+<ul>
+  <li>Passito di Pantelleria DOC<br>Ben Ryè Donnafugata <span>10</span></li>
+  <li>Ratafià Champenois AOC<br>Solera Henri Giraud <span>12</span></li>
+  <li>Sauternes 2018 Sichel <span>6</span></li>
+  <li>Porto "Kopke 10" Years Old Tawny <span>10</span></li>
+  <li>Royal Tokaji 2018 "Late Harvest" <span>6</span></li>
+  <li>Sherry Pedro Ximenez 1827 Jerez Osborne</li>
+</ul>
+</div>
 <div *ngIf="activeCategory === 'birre'" class="menu-content">
-  Contenuto Birre
+  <H3>BIRRE</H3>
+  <ul>
+    <li>Peroni Nastro Azzurro • 5,0% <span>4</span></li>
+    <li>Peroni Nastro Azzurro • 0,0% <span>4</span></li>
+    <li>Peroni Nastro Azzurro Stile Capri • 4,2% <span>4</span></li>
+    <li>Kwak Belgian Strong Ale • 8,4% <span>7</span></li>
+    <li>Bjorne Strong Lager • 8,3% <span>5</span></li>
+    <li>California West Coast IPA • 6,3% <span>6</span></li>
+    <li>Peroni Senza Glutine • 5,1% <span>4</span></li>
+</ul>
+
 </div>
