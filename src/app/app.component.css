@@ -40,7 +40,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 25px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -79,3 +79,9 @@ footer a{
     margin-top: 25px;
   }
   
+  footer .claim{
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+    font-size: 10px;
+  }
